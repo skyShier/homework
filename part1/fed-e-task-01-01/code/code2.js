@@ -49,6 +49,9 @@ const cars = [{
 */
 
 // 1.实现 isLastInStock 函数
+function isLastInStock(arr) {
+  fp.flowRight(fp.prop(), fp.last())
+}
 
 // 2.打印测试
 console.log( isLastInStock(cars) )  // 最终返回 true

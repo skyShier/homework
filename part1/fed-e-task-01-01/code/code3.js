@@ -10,7 +10,7 @@ const { Maybe, Container } = require('./support')
 */
 // 1.创建一个函子
 let maybe = Maybe.of([5, 6, 1])
-
+123
 // 2.实现 ex1 函数
 
 // 3.调用测试
